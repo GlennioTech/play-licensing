@@ -44,7 +44,7 @@ import com.google.android.vending.licensing.util.URIQueryDecoder;
 public class ServerManagedPolicy implements Policy {
 
     private static final String TAG = "ServerManagedPolicy";
-    private static final String PREFS_FILE = "com.google.android.vending.licensing.ServerManagedPolicy";
+    private static final String PREFS_FILE = "com.google.android.vending.licensing.ServerManagedPolicy.v2";
     private static final String PREF_LAST_RESPONSE = "lastResponse";
     private static final String PREF_VALIDITY_TIMESTAMP = "validityTimestamp";
     private static final String PREF_RETRY_UNTIL = "retryUntil";
